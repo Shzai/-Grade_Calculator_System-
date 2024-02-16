@@ -1,0 +1,32 @@
+body {
+   background-color: black;
+}
+
+h1 {
+   background-color: black;
+   color: palegoldenrod;
+   text-align: center;
+}
+
+div {
+   background-color: black;
+   color: white;
+   margin: 19px -3px;
+   padding: 4px 2px;
+}
+
+table {
+   min-height: 18vh;
+   background-color: white;
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   margin: -386px 219px auto;
+   width: 44%;
+   border-radius: 5px;
+   padding: 0px;
+}
+
+button {
+   background-color: palegoldenrod;
+   color: black;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <legend>
+        <h1>{Grade_Calculator_System}</h1>
+    </legend>
+    <div class="container">
+        <form onsubmit="Calculate(); return false;">
+            <div class="Book1">
+                <label for="Bookone">Tarjma-Tul-Quran:</label><br>
+                <input type="text" name="Tarjma-Tul-Quran" id="Bookone" placeholder="Marks"><br>
+            </div>
+            <div class="Book2">
+                <label for="Booktwo">Islamiyat:</label><br>
+                <input type="text" name="Islamiyat" id="Booktwo" placeholder="Marks"><br>
+            </div>
+            <div class="Book3">
+                <label for="Bookthree">Urdu:</label><br>
+                <input type="text" name="Urdu" id="Bookthree" placeholder="Marks"><br>
+            </div>
+            <div class="Book4">
+                <label for="Bookfour">English:</label><br>
+                <input type="text" name="English" id="Bookfour" placeholder="Marks"><br>
+            </div>
+            <div class="Book5">
+                <label for="Bookfive">Mathematics:</label><br>
+                <input type="text" name="Mathematics" id="Bookfive" placeholder="Marks"><br>
+            </div>
+            <div class="Book6">
+                <label for="Booksix">Physics:</label><br>
+                <input type="text" name="Physics" id="Booksix" placeholder="Marks"><br>
+            </div>
+            <div class="Book7">
+                <label for="Bookseven">Computer:</label><br>
+                <input type="text" name="Computer" id="Bookseven" placeholder="Marks"><br>
+            </div>
+            <div>
+                <button type="submit">Calculate</button><br>
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <table border="10px">
+            <tr>
+                <td>Total marks:</td>
+                <td>560</td>
+            </tr>
+            <tr>
+                <td>Obtained marks:</td>
+                <td id="obt1"></td>
+            </tr>
+            <tr>
+                <td>Percentage:</td>
+                <td id="per1"></td>
+            </tr>
+            <tr>
+                <td>Grade:</td>
+                <td id="gd1"></td>
+            </tr>
+            <tr>
+                <td>Remarks:</td>
+                <td id="rem1"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
